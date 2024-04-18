@@ -135,12 +135,6 @@ var systems = []system{{
 	Icon:        "https://damm.datasektionen.se/images/icons/favicon-96x96.png",
 	Color:       "#000000",
 }, {
-	Name:        "DKM",
-	Description: "Datasektionens klubbmästeri",
-	URL:         "http://dkm.io",
-	Icon:        "http://dkm.io/favicon.ico",
-	Color:       "#000000",
-}, {
 	Name:        "Duckumentation",
 	Description: "Dokumentation av API:er",
 	URL:         "https://duckumentation.datasektionen.se",
