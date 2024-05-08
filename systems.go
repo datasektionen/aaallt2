@@ -44,10 +44,10 @@ var systems = []system{{
 	Color:       "#ec5f99",
 	Sensitive:   true,
 }, {
-	Name:        "Aaaallltt",
+	Name:        "Aaallt",
 	Description: "Det här \"systemet\"",
-	URL:         "https://aaaallltt.datasektionen.se",
-	Icon:        "https://aaaallltt.datasektionen.se/favicon-96x96.png",
+	URL:         "https://aaallt.datasektionen.se",
+	Icon:        "https://aaallt.datasektionen.se/favicon-96x96.png",
 	Color:       "#ffca28",
 }, {
 	Name:        "Betting",
