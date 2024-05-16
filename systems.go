@@ -88,7 +88,7 @@ var systems = []system{{
 }, {
 	Name:        "dJubileet",
 	Description: "Datasektionens 45-årsjubileum",
-	URL:         "https://djubileet.se.se",
+	URL:         "https://djubileet.se",
 	Icon:        "https://djubileet.se/favicon.ico",
 	Color:       "#4E0093",
 }, {
