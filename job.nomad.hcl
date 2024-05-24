@@ -12,7 +12,8 @@ job "aaallt2" {
       provider = "nomad"
       tags = [
         "traefik-external.enable=true",
-        "traefik-external.http.routers.aaallt2.rule=Host(`aaallt.betasektionen.se`)",
+        "traefik-external.http.routers.aaallt2.rule=Host(`aaallt.datasektionen.se`)||HostRegexp(`{[^.]+}.datasektionen.se`)",
+        "traefik-external.http.routers.aaallt2.priority=1",
         "traefik-external.http.routers.aaallt2.entrypoints=websecure",
         "traefik-external.http.routers.aaallt2.tls.certresolver=default",
       ]
