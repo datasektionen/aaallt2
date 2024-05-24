@@ -46,7 +46,7 @@ var systems = []system{{
 	Name:        "dJulkalendern",
 	Description: "Vem är bäst på att data™?",
 	URL:         "https://djulkalendern.se",
-	Icon:        "https://djulkalendern.se/favicon.png",
+	Icon:        "https://djulkalendern.se/images/djuldanke.svg",
 	Color:       "#B90e0a",
 }, {
 	Name:        "Aaallt",
