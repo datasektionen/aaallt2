@@ -11,10 +11,10 @@ job "aaallt2" {
       port     = "http"
       provider = "nomad"
       tags = [
-        "traefik.enable=true",
-        "traefik.http.routers.aaallt2.rule=Host(`aaallt.betasektionen.se`)",
-        "traefik.http.routers.aaallt2.entrypoints=websecure",
-        "traefik.http.routers.aaallt2.tls.certresolver=default",
+        "traefik-external.enable=true",
+        "traefik-external.http.routers.aaallt2.rule=Host(`aaallt.betasektionen.se`)",
+        "traefik-external.http.routers.aaallt2.entrypoints=websecure",
+        "traefik-external.http.routers.aaallt2.tls.certresolver=default",
       ]
     }
 

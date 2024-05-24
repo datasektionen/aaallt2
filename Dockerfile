@@ -1,13 +1,31 @@
-FROM golang:1.22-alpine3.19 AS build
+ARG GO_VERSION=1.22
+ARG ALPINE_VERSION=3.19
+
+FROM golang:${GO_VERSION}-alpine${ALPINE_VERSION} AS build
 
 WORKDIR /src
 
+COPY go.* ./
+
+RUN --mount=type=cache,target=/go/pkg/mod/ \
+    --mount=type=cache,target=/root/.cache/go-build/ \
+    go mod download -x
+
 COPY . .
 
-RUN go build -o /aaallt2
+RUN --mount=type=cache,target=/go/pkg/mod/ \
+    --mount=type=cache,target=/root/.cache/go-build/ \
+    GCO_ENABLED=0 go build -o /app .
 
-FROM alpine:3.19
+FROM alpine:${ALPINE_VERSION}
 
-COPY --from=build /aaallt2 /aaallt2
+ARG UID=10001
+RUN adduser --disabled-password --gecos "" --home /nonexistent --shell "/sbin/nologin" \
+    --no-create-home --uid "${UID}" user
+USER user
 
-CMD ["/aaallt2"]
+COPY --from=build /app /bin/
+
+EXPOSE 3000
+
+ENTRYPOINT [ "/bin/app" ]
