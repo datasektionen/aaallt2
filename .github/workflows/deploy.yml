@@ -26,7 +26,7 @@ jobs:
       - name: Download Nomad
         run: |
           curl -LO https://releases.hashicorp.com/nomad/${{ env.NOMAD_VERSION }}/nomad_${{ env.NOMAD_VERSION }}_linux_amd64.zip
-          unzip -d /usr/local/bin nomad_${{ env.NOMAD_VERSION }}_linux_amd64.zip
+          unzip -d /usr/local/bin nomad_${{ env.NOMAD_VERSION }}_linux_amd64.zip nomad
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -49,9 +49,6 @@ jobs:
       - name: Deploy to nomad
         env:
           NOMAD_ADDR: ${{ vars.NOMAD_ADDR }}
-          NOMAD_CACERT_CONTENTS: ${{ vars.NOMAD_CACERT }}
-          NOMAD_CACERT: ./nomad_cacert.pem
           NOMAD_TOKEN: ${{ secrets.NOMAD_TOKEN }}
         run: |
-          echo "$NOMAD_CACERT_CONTENTS" > "$NOMAD_CACERT"
           nomad run -var=image_tag=${{ env.current }} job.nomad.hcl
