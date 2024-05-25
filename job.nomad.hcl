@@ -32,6 +32,10 @@ job "aaallt2" {
         destination = "local/.env"
         env         = true
       }
+
+      resources {
+        memory = 10
+      }
     }
   }
 }
