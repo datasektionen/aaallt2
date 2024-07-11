@@ -24,6 +24,7 @@ var systems = []system{{
 	URL:         "https://val.datasektionen.se",
 	Icon:        "https://val.datasektionen.se/images/logos/favicon-96x96.png",
 	Color:       "#07d",
+	Sensitive:   true,
 }, {
 	Name:        "Styrdokument",
 	Description: "Stadgar, reglemente, PM, och policydokument",
@@ -145,7 +146,7 @@ var systems = []system{{
 	Description: "Här hittar du massvis ackumulerad kunskap.",
 	URL:         "https://wiki.datasektionen.se",
 	Icon:        "https://wiki.datasektionen.se/resources/assets/skold_svart_thumb.png",
-	Color:       "#ff9800",	
+	Color:       "#ff9800",
 }, {
 	Name:        "Status",
 	Description: "Ta reda på om något av våra system är nere",
