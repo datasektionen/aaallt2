@@ -13,6 +13,12 @@ var systems = []system{{
 	Icon:        "https://cashflow.datasektionen.se/static/images/logos/favicon-96x96.png",
 	Color:       "#216C2A",
 }, {
+	Name:        "METAmost",
+	Description: "Tyvärr inte Matrix eller Zulip",
+	URL:         "https://mattermost.datasektionen.se",
+	Icon:        "https://mattermost.datasektionen.se/static/images/favicon/favicon-default-96x96.png",
+	Color:       "#1b1d21",
+}, {
 	Name:        "Bokningssystemet",
 	Description: "Boka META, Mötesrummet, bilarna, eller annat",
 	URL:         "https://bokning.datasektionen.se",
