@@ -35,7 +35,7 @@ var systems = []system{{
 	Name:        "Budgetsystemet",
 	Description: "Se vad sektionen gör av sina pengar",
 	URL:         "https://budget.datasektionen.se",
-	Icon:        "https://budget.datasektionen.se/images/icons/favicon-96x96.png",
+	Icon:        "https://budget.datasektionen.se/static/images/icons/favicon-96x96.png",
 	Color:       "#3d3846",
 }, {
 	Name:        "Dfunkt",
