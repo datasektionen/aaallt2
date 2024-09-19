@@ -65,13 +65,15 @@ footer strong {
 }
 
 #systems {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-flow: wrap;
+    max-width: 1240px;
 }
 
 #systems > a {
     padding: 0.6em;
     display: flex;
+    width: 340px;
     color: inherit;
     text-decoration: none;
     border-radius: 0.8em;
