@@ -171,4 +171,9 @@ var systems = []system{{
 	Description: "Ladda upp statiska filer i sektionssyfte",
 	URL:         "https://static.datasektionen.se",
 	Icon:        "https://static.datasektionen.se/favicon-96x96.png",
+}, {
+	Name:        "METAcraft",
+	Description: "Datas och Medias Minecraftserver",
+	URL:         "https://metacraft.nu",
+	Icon:        "https://metacraft.nu/logo-square.png",
 }}
