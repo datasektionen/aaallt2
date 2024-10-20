@@ -81,8 +81,7 @@ func main() {
 		whichLinks := strings.Split(r.Host, ".")[0]
 		linksToShow, ok := links[whichLinks]
 		if !ok {
-			whichLinks = "systems"
-			linksToShow = links[whichLinks]
+			linksToShow = links["systems"]
 		}
 		if darkmode {
 			linksToshow = slices.DeleteFunc(linksToShow, func (l link) bool {
