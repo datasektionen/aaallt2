@@ -1,0 +1,63 @@
+[
+{
+	"Name":        "Handlingar",
+	"Description": "Se dagordningen och bilagorna för mötet",
+	"URL":         "static/handlingar.png",
+	"Icon":        "https://datasektionen.se/icons/favicon-96x96.png",
+	"Color":       "#ab000d"
+}, {
+	"Name":        "Guide",
+	"Description": "Lär dig hur man SM:ar",
+	"URL":         "https://dsekt.se/smguide",
+	"Icon":        "static/sm/guide.png",
+	"Color":       "#216C2A"
+}, {
+	"Name":        "Närvaro",
+	"Description": "Anmäl att du är närvarande om du inte redan gjort det i dörren",
+	"URL":         "https://dsekt.se/smnarvaro",
+	"Icon":        "static/sm/narvaro.png",
+	"Color":       "#216C2A"
+}, {
+	"Name":        "VoteIt",
+	"Description": "Rösta här",
+	"URL":         "https://ths.voteit.se",
+	"Icon":        "static/sm/voteit.png",
+	"Color":       "#216C2A"
+}, {
+	"Name":        "Betting",
+	"Description": "Gissa rätt på när SM slutar och vinn chansen att köpa ett märke",
+	"URL":         "https://betting.datasektionen.se",
+	"Icon":        "static/sm/betting.png",
+	"Color":       "#216C2A"
+}, {
+	"Name":        "SM-Chatter",
+	"Description": "Snacka skit under mötet",
+	"URL":         "https://dsekt.se/smchatter",
+	"Icon":        "static/sm/chatter.png",
+	"Color":       "#216C2A"
+}, {
+	"Name":        "Valhandlingar",
+	"Description": "Se vilka som ställer upp för vilka poster",
+	"URL":         "https://dsekt.se/valhandlingar",
+	"Icon":        "static/sm/val.png",
+	"Color":       "#216C2A"
+}, {
+	"Name":        "SM-arkiv",
+	"Description": "Se kallelse, handlingar, och protokoll för gamla eller kommande SM",
+	"URL":         "https://dsekt.se/sm",
+	"Icon":        "static/sm/arkiv.png",
+	"Color":       "#216C2A"
+}, {
+	"Name":        "dUrn",
+	"Description": "Rösta i aktiva urnval",
+	"URL":         "https://durn.datasektionen.se",
+	"Icon":        "https://durn.datasektionen.se/static/images/logos/favicon-96x96.png",
+	"Color":       "#216C2A"
+}, {
+	"Name":        "Schulze metoden",
+	"Description": "Lär dig hur Schulze metoden fungerar",
+	"URL":         "https://en.wikipedia.org/wiki/Schulze_method",
+	"Icon":        "static/sm/schulze.png",
+	"Color":       "#216C2A"
+}
+]
