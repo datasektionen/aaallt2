@@ -85,12 +85,9 @@ func main() {
 			linksToShow = links[whichLinks]
 		}
 		if darkmode {
-			linksToShow = make([]link, 0, len(links[whichLinks]))
-			for _, link := range links[whichLinks] {
-				if !link.Sensitive {
-					linksToShow = append(linksToShow, link)
-				}
-			}
+			linksToshow = slices.DeleteFunc(linksToShow, func (l link) bool {
+				return l.Sensitive
+			})
 		}
 
 		if err := indexTemplate.Execute(w, linksToShow); err != nil {
