@@ -8,9 +8,11 @@ import (
 	"log/slog"
 	"net/http"
 	"os"
+	"slices"
+	"strings"
 )
 
-type system struct {
+type link struct {
 	Name        string
 	Description string
 	URL         string
@@ -23,14 +25,43 @@ type system struct {
 //go:embed static/*
 var assets embed.FS
 
+//go:embed links/*
+var linksFolder embed.FS
+
 //go:embed index.html
 var indexFile string
+
+func getLinks() map[string][]link {
+	linkFiles, err := linksFolder.ReadDir("links")
+	if err != nil {
+		panic(err)
+	}
+
+	links := make(map[string][]link)
+	for _, e := range linkFiles {
+		data, err := os.ReadFile("links/" + e.Name())
+		if err != nil {
+			panic(err)
+		}
+
+		var l []link
+		err = json.Unmarshal(data, &l)
+		if err != nil {
+			panic(err)
+		}
+		links[strings.TrimSuffix(e.Name(), ".json")] = l
+	}
+
+	return links
+}
 
 func main() {
 	darkmodeURL, ok := os.LookupEnv("DARKMODE_URL")
 	if !ok {
 		darkmodeURL = "https://darkmode.datasektionen.se/"
 	}
+
+	links := getLinks()
 
 	indexTemplate, err := template.New("index.html").Parse(indexFile)
 	if err != nil {
@@ -47,16 +78,19 @@ func main() {
 			http.Error(w, "Internal server error", http.StatusInternalServerError)
 			slog.Error("Failed parsing darkmode status", "error", err)
 		}
-		systemsToShow := systems
-		if darkmode {
-			systemsToShow = make([]system, 0, len(systems))
-			for _, system := range systems {
-				if !system.Sensitive {
-					systemsToShow = append(systemsToShow, system)
-				}
-			}
+
+		whichLinks := strings.Split(r.Host, ".")[0]
+		linksToShow, ok := links[whichLinks]
+		if !ok {
+			linksToShow = links["systems"]
 		}
-		if err := indexTemplate.Execute(w, systemsToShow); err != nil {
+		if darkmode {
+			linksToShow = slices.DeleteFunc(linksToShow, func(l link) bool {
+				return l.Sensitive
+			})
+		}
+
+		if err := indexTemplate.Execute(w, linksToShow); err != nil {
 			http.Error(w, "Failed rendering template", http.StatusInternalServerError)
 			slog.Error("Failed rendering template", "error", err)
 		}
