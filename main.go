@@ -8,6 +8,7 @@ import (
 	"log/slog"
 	"net/http"
 	"os"
+	"slices"
 	"strings"
 )
 
@@ -84,7 +85,7 @@ func main() {
 			linksToShow = links["systems"]
 		}
 		if darkmode {
-			linksToshow = slices.DeleteFunc(linksToShow, func (l link) bool {
+			linksToShow = slices.DeleteFunc(linksToShow, func(l link) bool {
 				return l.Sensitive
 			})
 		}
