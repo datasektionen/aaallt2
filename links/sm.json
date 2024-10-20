@@ -51,7 +51,7 @@
         "name":        "dUrn",
         "description": "Rösta i aktiva urnval",
         "url":         "https://durn.datasektionen.se",
-        "icon":        "https://durn.datasektionen.se/static/images/logos/favicon-96x96.png",
+        "icon":        "https://durn.datasektionen.se/public/favicon.png",
         "color":       "#216C2A"
     }, {
         "name":        "Schulze-metoden",
