@@ -3,6 +3,7 @@ package main
 import (
 	"embed"
 	"encoding/json"
+	"gopkg.in/yaml.v3"
 	"html/template"
 	"io/fs"
 	"log/slog"
@@ -22,6 +23,13 @@ type link struct {
 	Sensitive   bool
 }
 
+type page struct {
+	Title       string
+	BeforeLinks template.HTML
+	AfterLinks  template.HTML
+	Links       []link
+}
+
 //go:embed static/*
 var assets embed.FS
 
@@ -31,25 +39,25 @@ var linksFolder embed.FS
 //go:embed index.html
 var indexFile string
 
-func getLinks() map[string][]link {
+func getLinks() map[string]page {
 	linkFiles, err := linksFolder.ReadDir("links")
 	if err != nil {
 		panic(err)
 	}
 
-	links := make(map[string][]link)
+	links := make(map[string]page)
 	for _, e := range linkFiles {
 		data, err := os.ReadFile("links/" + e.Name())
 		if err != nil {
 			panic(err)
 		}
 
-		var l []link
-		err = json.Unmarshal(data, &l)
+		var l page
+		err = yaml.Unmarshal(data, &l)
 		if err != nil {
 			panic(err)
 		}
-		links[strings.TrimSuffix(e.Name(), ".json")] = l
+		links[strings.TrimSuffix(e.Name(), ".yml")] = l
 	}
 
 	return links
@@ -85,7 +93,7 @@ func main() {
 			linksToShow = links["systems"]
 		}
 		if darkmode {
-			linksToShow = slices.DeleteFunc(linksToShow, func(l link) bool {
+			linksToShow.Links = slices.DeleteFunc(linksToShow.Links, func(l link) bool {
 				return l.Sensitive
 			})
 		}
