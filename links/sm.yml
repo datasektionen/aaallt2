@@ -49,6 +49,7 @@ links:
     url: https://dsekt.se/sm
     icon: https://dsekt-assets.s3.amazonaws.com/namnder/systemgruppen/sm/arkiv.png
     color: "#216C2A"
+    sensitive: true
 
   - name: dUrn
     description: Rösta i aktiva urnval
