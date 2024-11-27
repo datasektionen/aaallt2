@@ -78,7 +78,7 @@ links:
     color:       "#B90e0a"
 
   - name:        Aaallt
-    description: Det här \"systemet\"
+    description: Det här "systemet"
     url:         https://aaallt.datasektionen.se
     icon:        https://aaallt.datasektionen.se/favicon-96x96.png
     color:       "#ffca28"
