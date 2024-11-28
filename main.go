@@ -47,7 +47,7 @@ func getLinks() map[string]page {
 
 	links := make(map[string]page)
 	for _, e := range linkFiles {
-		data, err := os.ReadFile("links/" + e.Name())
+		data, err := linksFolder.ReadFile("links/" + e.Name())
 		if err != nil {
 			panic(err)
 		}
