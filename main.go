@@ -91,6 +91,7 @@ func main() {
 		linksToShow, ok := links[whichLinks]
 		if !ok {
 			linksToShow = links["systems"]
+			w.WriteHeader(404)
 		}
 		if darkmode {
 			linksToShow.Links = slices.DeleteFunc(linksToShow.Links, func(l link) bool {
