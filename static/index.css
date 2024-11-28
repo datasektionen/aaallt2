@@ -75,7 +75,7 @@ footer strong {
     max-width: 1240px;
 }
 
-#systems>a {
+#systems > a {
     padding: 0.6em;
     display: flex;
     width: 370px;
