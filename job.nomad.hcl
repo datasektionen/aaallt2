@@ -12,7 +12,7 @@ job "aaallt2" {
       provider = "nomad"
       tags = [
         "traefik.enable=true",
-        "traefik.http.routers.aaallt2.rule=Host(`aaallt.datasektionen.se`)||HostRegexp(`^[^.]+\\.datasektionen\\.se$`)",
+        "traefik.http.routers.aaallt2.rule=Host(`aaallt.datasektionen.se`)||Host(`sm.datasektionen.se`)||HostRegexp(`^[^.]+\\.datasektionen\\.se$`)",
         "traefik.http.routers.aaallt2.priority=1",
         "traefik.http.routers.aaallt2.tls.certresolver=default",
       ]

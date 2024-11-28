@@ -1,0 +1,199 @@
+title: Hoppsan, det där systemet fanns tydligen inte!
+beforelinks: >
+  <p>
+      Du har gått in på ett system som inte (längre?) finns. Det är jättesynd. Så synd att vi
+      skulle vilja gräva upp det begravda Bawangmonstret för att glömma sorgen.
+  </p>
+  <h2>Andra system</h2>
+  <p>Du kanske letade efter något av dessa system?</p>
+afterlinks: >
+  <h2>Bygg ett nytt system på den här domänen!</h2>
+  <p>
+      Har du en idé om vad som skulle kunna finnas på den här sidan? Kom då till någon av
+      Systemgruppens hackerkvällar! Där kan vi berätta lite om hur man kan gå tillväga
+      och integrerar med våra andra system och till och med erbjuda hjälp på traven.
+  </p>
+  <p>
+      Hackerkvällarna äger rum på torsdagar oftast i någon sal i E-huset. Exakt när och var
+      bör annonseras på <a href="https://datasektionen.se/nyheter">sektionens webbsida</a>,
+      men du kan också fråga Systemansvarig på <a href="d-sys@datasektionen.se">epost</a>,
+      eller kolla upp vem det är på
+      <a href="https://dfunkt.datasektionen.se/position/id/40">dfunkt</a> och fråga denne på
+      till exempel Discord.
+  </p>
+links:
+  - name:        Datasektionen.se
+    description: Hitta all information och nyheter om sektionen
+    url:         https://datasektionen.se
+    icon:        https://datasektionen.se/icons/favicon-96x96.png
+    color:       "#ff9800"
+
+  - name:        Cashflow
+    description: Få tillbaka pengar för dina utlägg
+    url:         https://cashflow.datasektionen.se
+    icon:        https://cashflow.datasektionen.se/static/images/logos/favicon-96x96.png
+    color:       "#216C2A"
+
+  - name:        METAmost
+    description: Tyvärr inte Matrix eller Zulip
+    url:         https://mattermost.datasektionen.se
+    icon:        https://mattermost.datasektionen.se/static/images/favicon/favicon-default-96x96.png
+    color:       "#1b1d21"
+
+  - name:        Bokningssystemet
+    description: Boka META, Mötesrummet, bilarna, eller annat
+    url:         https://bokning.datasektionen.se
+    icon:        https://bokning.datasektionen.se/logos/favicon-96x96.png
+    color:       "#03a9f4"
+
+  - name:        Valsystemet
+    description: Se till att någon tar ansvar
+    url:         https://val.datasektionen.se
+    icon:        https://val.datasektionen.se/images/logos/favicon-96x96.png
+    color:       "#07d"
+    sensitive:   true
+
+  - name:        Styrdokument
+    description: Stadgar, reglemente, PM, och policydokument
+    url:         https://styrdokument.datasektionen.se
+    icon:        https://styrdokument.datasektionen.se/static/favicon-96x96.png
+    color:       "#ff9800"
+
+  - name:        Budgetsystemet
+    description: Se vad sektionen gör av sina pengar
+    url:         https://budget.datasektionen.se
+    icon:        https://budget.datasektionen.se/static/images/icons/favicon-96x96.png
+    color:       "#3d3846"
+
+  - name:        Dfunkt
+    description: Vem gör vad egentligen?
+    url:         https://dfunkt.datasektionen.se
+    icon:        https://dfunkt.datasektionen.se/images/logos/favicon-96x96.png
+    color:       "#9c27b0"
+
+  - name:        dJulkalendern
+    description: Vem är bäst på att data™?
+    url:         https://djulkalendern.se
+    icon:        https://djulkalendern.se/images/djuldanke.svg
+    color:       "#B90e0a"
+
+  - name:        Aaallt
+    description: Det här "systemet"
+    url:         https://aaallt.datasektionen.se
+    icon:        https://aaallt.datasektionen.se/favicon-96x96.png
+    color:       "#ffca28"
+
+  - name:        Betting
+    description: När slutar SM?
+    url:         https://betting.datasektionen.se
+    icon:        https://betting.datasektionen.se/images/icons/favicon-96x96.png
+    color:       "#78909c"
+
+  - name:        Damm
+    description: Datasektionens historia
+    url:         https://damm.datasektionen.se
+    icon:        https://damm.datasektionen.se/images/icons/favicon-96x96.png
+    color:       "#000000"
+
+  - name:        dbuggen
+    description: Når ut till hundratals genom allt förutom TV
+    url:         https://dbu.gg
+    icon:        https://dbu.gg/favicon/favicon-96x96.png
+    color:       "#444"
+    iconstyle:   "border-radius: 50%"
+
+  - name:        ddagen.se
+    description: Allt om D-dagen
+    url:         https://ddagen.se
+    icon:        https://ddagen.se/img/favicon.ico
+    color:       "#ec5f99"
+
+  - name:        /dev/audio
+    description: Starkt är vackert
+    url:         https://audio.datasektionen.se
+    icon:        https://audio.datasektionen.se/favicon-32x32.png
+    color:       "#ff7043"
+
+  - name:        dJubileet
+    description: Datasektionens 45-årsjubileum
+    url:         https://djubileet.se
+    icon:        https://djubileet.se/favicon.ico
+    color:       "#4E0093"
+
+  - name:        Duckumentation
+    description: Dokumentation av API:er
+    url:         https://duckumentation.datasektionen.se
+    icon:        https://duckumentation.datasektionen.se/images/icons/favicon-96x96.png
+    color:       "#4caf50"
+
+  - name:        DUrn
+    description: Röstningssystem vid urnval
+    url:         https://durn.datasektionen.se
+    icon:        https://durn.datasektionen.se/public/favicon.png
+    color:       "#0033cc"
+
+  - name:        GitHub
+    description: Datasektionens GitHub
+    url:         https://github.com/datasektionen
+    icon:        https://github.com/favicon.ico
+    color:       "#000"
+
+  - name:        Metaspexet
+    description: Datas och Medias spex!
+    url:         https://metaspexet.se
+    icon:        https://metaspexet.se/images/favicon.svg
+    color:       "#800000"
+    iconstyle:   "background-color: #6f1d1b; border: 2px solid #6f1d1b; border-radius: 50%"
+
+  - name:        META-TV
+    description: Nå ut till hundratals genom META-TV
+    url:         https://tv.datasektionen.se
+    icon:        https://tv.datasektionen.se/favicon.png
+    color:       "#009688"
+
+  - name:        Nyhetssystemet
+    description: Skriv och posta nyheter till hemsidan
+    url:         https://calypso.datasektionen.se
+    icon:        https://calypso.datasektionen.se/favicon-96x96.png
+    color:       "#ec407a"
+
+  - name:        Pico
+    description: Länkförkortare
+    url:         https://dsekt.se
+    icon:        https://dsekt.se/favicon-96x96.png
+    color:       "#03a9f4"
+
+  - name:        Pls
+    description: Lär dig ta ett nej
+    url:         https://pls.datasektionen.se
+    icon:        https://pls.datasektionen.se/images/logos/favicon-96x96.png
+    color:       "#9c27b0"
+
+  - name:        Sektionswikin
+    description: Här hittar du massvis ackumulerad kunskap.
+    url:         https://wiki.datasektionen.se
+    icon:        https://wiki.datasektionen.se/resources/assets/skold_svart_thumb.png
+    color:       "#ff9800"
+
+  - name:        Status
+    description: Ta reda på om något av våra system är nere
+    url:         https://status.datasektionen.se
+    icon:        https://userfiles.uptimerobot.com/img/623458-1649958820-icon.png
+    color:       "#32cd32"
+
+  - name:        STÖn
+    description: Suck
+    url:         https://ston.datasektionen.se
+    icon:        https://ston.datasektionen.se/images/logos/favicon-96x96.png
+    color:       "#ec5f99"
+    sensitive:   true
+
+  - name:        Yoggi
+    description: Ladda upp statiska filer i sektionssyfte
+    url:         https://static.datasektionen.se
+    icon:        https://static.datasektionen.se/favicon-96x96.png
+
+  - name:        METAcraft
+    description: Datas och Medias Minecraftserver
+    url:         https://metacraft.nu
+    icon:        https://metacraft.nu/logo-square.png
