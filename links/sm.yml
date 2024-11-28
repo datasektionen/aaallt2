@@ -62,3 +62,9 @@ links:
     url: https://en.wikipedia.org/wiki/Schulze_method
     icon: https://dsekt-assets.s3.amazonaws.com/namnder/systemgruppen/sm/schulze.png
     color: "#216C2A"
+
+  - name: smUrn
+    description: Rösta här med
+    url: https://smurn.datasektionen.se/
+    icon: https://smurn.datasektionen.se/public/favicon-sm.png
+    color: "#e52575"
