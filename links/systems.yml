@@ -105,19 +105,20 @@ links:
   - name:        ddagen.se
     description: Allt om D-dagen
     url:         https://ddagen.se
-    icon:        https://ddagen.se/img/favicon.ico
+    icon:        https://ddagen.se/img/favicon.svg
     color:       "#ec5f99"
 
   - name:        /dev/audio
     description: Starkt är vackert
     url:         https://audio.datasektionen.se
-    icon:        https://audio.datasektionen.se/favicon-32x32.png
+    icon:        https://audio.datasektionen.se/android-chrome-192x192.png
     color:       "#ff7043"
+    iconstyle:   "background-color: #333333; border-radius: 50%"
 
   - name:        dJubileet
     description: Datasektionens 45-årsjubileum
     url:         https://djubileet.se
-    icon:        https://djubileet.se/favicon.ico
+    icon:        https://djubileet.se/djub.png
     color:       "#4E0093"
 
   - name:        Duckumentation
@@ -135,7 +136,7 @@ links:
   - name:        GitHub
     description: Datasektionens GitHub
     url:         https://github.com/datasektionen
-    icon:        https://github.com/favicon.ico
+    icon:        https://github.githubassets.com/favicons/favicon.svg
     color:       "#000"
 
   - name:        Metaspexet
@@ -191,7 +192,7 @@ links:
   - name:        Yoggi
     description: Ladda upp statiska filer i sektionssyfte
     url:         https://static.datasektionen.se
-    icon:        https://static.datasektionen.se/favicon-96x96.png
+    icon:        https://dsekt-assets.s3.amazonaws.com/ior/yoggi-favicon-96x96.png
 
   - name:        METAcraft
     description: Datas och Medias Minecraftserver
