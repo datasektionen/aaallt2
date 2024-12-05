@@ -68,3 +68,9 @@ links:
     url: https://smurn.datasektionen.se/
     icon: https://smurn.datasektionen.se/public/favicon-sm.png
     color: "#ab000d"
+
+  - name: SMingo
+    description: Spela bingo och skrik SMINGO när du vinner!
+    url: https://smingo.datasektionen.se/
+    icon: https://dsekt-assets.s3.amazonaws.com/ior/SMingo.png
+    color: "#ab000d"
