@@ -34,7 +34,7 @@ links:
 
   - name: SM-chatter
     description: Snacka skit under mötet
-    url: https://dsekt.se/smchatter
+    url: https://dsekt.se/sm-chatter
     icon: https://dsekt-assets.s3.amazonaws.com/namnder/systemgruppen/sm/chatter.png
     color: "#ab000d"
 
