@@ -95,6 +95,12 @@ links:
     icon:        https://damm.datasektionen.se/images/icons/favicon-96x96.png
     color:       "#000000"
 
+  - name:        Zaiko
+    description: Vad har sektionen?
+    url:         https://zaiko.datasektionen.se
+    icon:        https://zaiko.datasektionen.se/static/favicon.svg
+    color:       "#009688"
+
   - name:        dbuggen
     description: Når ut till hundratals genom allt förutom TV
     url:         https://dbu.gg
