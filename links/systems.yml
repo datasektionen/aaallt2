@@ -56,7 +56,7 @@ links:
   - name:        Styrdokument
     description: Stadgar, reglemente, PM, och policydokument
     url:         https://styrdokument.datasektionen.se
-    icon:        https://styrdokument.datasektionen.se/static/favicon-96x96.png
+    icon:        https://styrdokument.datasektionen.se/static/favicon.svg
     color:       "#ff9800"
 
   - name:        Budgetsystemet
