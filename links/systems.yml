@@ -95,6 +95,12 @@ links:
     icon:        https://damm.datasektionen.se/images/icons/favicon-96x96.png
     color:       "#000000"
 
+  - name:        Tiki
+    description: Biljettsystem
+    url:         https://tiki.datasektionen.se
+    icon:        https://tiki.datasektionen.se/images/logo.svg
+    color:       "#000000"
+
   - name:        Zaiko
     description: Vad har sektionen?
     url:         https://zaiko.datasektionen.se
