@@ -19,7 +19,7 @@ links:
     url: https://dsekt.se/smnarvaro
     icon: https://dsekt-assets.s3.amazonaws.com/namnder/systemgruppen/sm/narvaro.png
     color: "#ab000d"
-    
+
   - name: VoteIT
     description: Rösta här
     url: https://ths.voteit.se
