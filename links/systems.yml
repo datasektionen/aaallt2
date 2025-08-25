@@ -185,7 +185,7 @@ links:
   - name:        Status
     description: Ta reda på om något av våra system är nere
     url:         https://status.datasektionen.se
-    icon:        https://userfiles.uptimerobot.com/img/623458-1649958820-icon.png
+    icon:        https://uptimerobot.com/favicon.ico
     color:       "#32cd32"
 
   - name:        STÖn
