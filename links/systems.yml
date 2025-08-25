@@ -71,6 +71,12 @@ links:
     icon:        https://dfunkt.datasektionen.se/images/logos/favicon-96x96.png
     color:       "#9c27b0"
 
+  - name:        Hive
+    description: Hantera grupper och behörigheter
+    url:         https://hive.datasektionen.se
+    icon:        https://hive.datasektionen.se/static/hive.svg
+    color:       "#ffbf00"
+
   - name:        dJulkalendern
     description: Vem är bäst på att data™?
     url:         https://djulkalendern.se
