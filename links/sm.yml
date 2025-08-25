@@ -63,12 +63,6 @@ links:
     icon: https://dsekt-assets.s3.amazonaws.com/namnder/systemgruppen/sm/schulze.png
     color: "#ab000d"
 
-  - name: smUrn
-    description: Rösta här med
-    url: https://smurn.datasektionen.se/
-    icon: https://smurn.datasektionen.se/public/favicon-sm.png
-    color: "#ab000d"
-
   - name: SMingo
     description: Spela bingo och skrik SMINGO när du vinner!
     url: https://smingo.datasektionen.se/
