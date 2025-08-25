@@ -133,12 +133,6 @@ links:
     icon:        https://djubileet.se/djub.png
     color:       "#4E0093"
 
-  - name:        Duckumentation
-    description: Dokumentation av API:er
-    url:         https://duckumentation.datasektionen.se
-    icon:        https://duckumentation.datasektionen.se/images/icons/favicon-96x96.png
-    color:       "#4caf50"
-
   - name:        DUrn
     description: Röstningssystem vid urnval
     url:         https://durn.datasektionen.se
