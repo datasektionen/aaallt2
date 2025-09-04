@@ -90,7 +90,8 @@ func main() {
 		whichLinks := strings.Split(r.Host, ".")[0]
 		linksToShow, ok := links[whichLinks]
 		if !ok {
-			linksToShow = links["systems"]
+			linksToShow = links["aaallt"]
+			linksToShow.Title = "Hoppsan, det där systemet fanns tydligen inte!"
 			w.WriteHeader(404)
 		}
 		if darkmode {
