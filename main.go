@@ -94,7 +94,7 @@ func main() {
 			w.WriteHeader(404)
 		}
 		if darkmode {
-			linksToShow.Links = slices.DeleteFunc(linksToShow.Links, func(l link) bool {
+			linksToShow.Links = slices.DeleteFunc(append([]link{}, linksToShow.Links...), func(l link) bool {
 				return l.Sensitive
 			})
 		}
