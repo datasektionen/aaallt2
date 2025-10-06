@@ -161,8 +161,8 @@ links:
   - name:        META-TV
     description: Nå ut till hundratals genom META-TV
     url:         https://tv.datasektionen.se
-    icon:        https://tv.datasektionen.se/favicon.png
-    color:       "#009688"
+    icon:        https://tv.datasektionen.se/favicon-aedce989e39023dc.svg
+    color:       "#673ab7"
 
   - name:        Nyhetssystemet
     description: Skriv och posta nyheter till hemsidan
