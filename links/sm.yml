@@ -16,7 +16,7 @@ links:
 
   - name: Närvaro
     description: Anmäl att du är närvarande om du inte redan gjort det i dörren
-    url: https://dsekt.se/smnarvaro
+    url: https://dsekt.se/narvaro
     icon: https://dsekt-assets.s3.amazonaws.com/namnder/systemgruppen/sm/narvaro.png
     color: "#ab000d"
 
