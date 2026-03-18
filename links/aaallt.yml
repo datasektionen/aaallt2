@@ -131,6 +131,11 @@ links:
     url:         https://metacraft.nu
     icon:        https://metacraft.nu/logo-square.png
 
+  - name:        METAdorerna
+    description: Data och Medias sektionslokalsgrupp
+    url:         https://metadorerna.se
+    icon:        https://metadorerna.se/static/logo.png
+
   - name:        METAmost
     description: Tyvärr inte Matrix eller Zulip
     url:         https://mattermost.datasektionen.se
