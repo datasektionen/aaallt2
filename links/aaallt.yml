@@ -120,6 +120,12 @@ links:
     icon:        https://github.githubassets.com/favicons/favicon.svg
     color:       "#000"
 
+  - name:        Grafana
+    description: Håll koll på våra system
+    url:         https://grafana.datasektionen.se
+    icon:        https://upload.wikimedia.org/wikipedia/commons/a/a1/Grafana_logo.svg
+    color:       "#f15b25"
+
   - name:        Hive
     description: Hantera grupper och behörigheter
     url:         https://hive.datasektionen.se
