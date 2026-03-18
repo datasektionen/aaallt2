@@ -198,9 +198,3 @@ links:
     url:         https://zaiko.datasektionen.se
     icon:        https://zaiko.datasektionen.se/static/favicon.svg
     color:       "#009688"
-
-  - name:        Aaallt
-    description: Det här "systemet"
-    url:         https://aaallt.datasektionen.se
-    icon:        https://aaallt.datasektionen.se/favicon-96x96.png
-    color:       "#ffca28"
