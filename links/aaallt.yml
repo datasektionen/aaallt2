@@ -126,6 +126,12 @@ links:
     icon:        https://hive.datasektionen.se/static/hive.svg
     color:       "#ffbf00"
 
+  - name:        Immich
+    description: Se bilder på sektionen
+    url:         https://immich.datasektionen.se
+    icon:        https://immich.datasektionen.se/favicon-144.png
+    color:       "#18c249"
+
   - name:        METAcraft
     description: Datas och Medias Minecraftserver
     url:         https://metacraft.nu
