@@ -141,6 +141,7 @@ links:
     description: Data och Medias sektionslokalsgrupp
     url:         https://metadorerna.se
     icon:        https://metadorerna.se/static/logo.png
+    color:       "#afafaf"
 
   - name:        METAmost
     description: Tyvärr inte Matrix eller Zulip
