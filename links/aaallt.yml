@@ -162,6 +162,12 @@ links:
     icon:        https://tv.datasektionen.se/favicon-aedce989e39023dc.svg
     color:       "#673ab7"
 
+  - name:        Planka
+    description: Inte trello men funkar
+    url:         https://planka.datasektionen.se
+    icon:        https://planka.datasektionen.se/favicon.ico
+    color:       "#22252a"
+
   - name:        Sektionswikin
     description: Här hittar du massvis ackumulerad kunskap.
     url:         https://wiki.datasektionen.se
