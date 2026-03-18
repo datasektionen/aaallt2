@@ -176,12 +176,6 @@ links:
     icon:        https://admin.dsekt.se/favicon-96x96.png
     color:       "#9ccc65"
 
-  - name:        Pls
-    description: Lär dig ta ett nej
-    url:         https://pls.datasektionen.se
-    icon:        https://pls.datasektionen.se/images/logos/favicon-96x96.png
-    color:       "#9c27b0"
-
   - name:        Sektionswikin
     description: Här hittar du massvis ackumulerad kunskap.
     url:         https://wiki.datasektionen.se
