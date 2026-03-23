@@ -32,7 +32,7 @@ links:
     description: När slutar SM?
     url:         https://betting.datasektionen.se
     icon:        https://betting.datasektionen.se/images/icons/favicon-96x96.png
-    color:       "#78909c"
+    color:       "#ffc107"
 
   - name:        Bokningssystemet
     description: Boka META, Mötesrummet, bilarna, eller annat
@@ -44,7 +44,7 @@ links:
     description: Se vad sektionen gör av sina pengar
     url:         https://budget.datasektionen.se
     icon:        https://budget.datasektionen.se/static/images/icons/favicon-96x96.png
-    color:       "#3d3846"
+    color:       "#78909c"
 
   - name:        Calypso
     description: Skriv och posta nyheter till hemsidan
@@ -62,26 +62,26 @@ links:
     description: Datasektionens historia
     url:         https://damm.datasektionen.se
     icon:        https://damm.datasektionen.se/images/icons/favicon-96x96.png
-    color:       "#000000"
+    color:       "#ee2a7b"
 
   - name:        dbuggen
     description: Når ut till hundratals genom allt förutom TV
     url:         https://dbu.gg
     icon:        https://dbu.gg/favicon/favicon-96x96.png
-    color:       "#444"
+    color:       "#282828"
     iconstyle:   "border-radius: 50%"
 
   - name:        ddagen.se
     description: Allt om D-dagen
     url:         https://ddagen.se
     icon:        https://ddagen.se/img/favicon.svg
-    color:       "#ec5f99"
+    color:       "#e72e7b"
 
   - name:        /dev/audio
     description: Starkt är vackert
     url:         https://audio.datasektionen.se
     icon:        https://audio.datasektionen.se/android-chrome-192x192.png
-    color:       "#ff7043"
+    color:       "#333333"
     iconstyle:   "background-color: #333333; border-radius: 50%"
 
   - name:        Dfunkt
@@ -142,6 +142,7 @@ links:
     description: Datas och Medias Minecraftserver
     url:         https://metacraft.nu
     icon:        https://metacraft.nu/logo-square.png
+    color:       "#840557"
 
   - name:        METAdorerna
     description: Data och Medias sektionslokalsgrupp
@@ -153,7 +154,7 @@ links:
     description: Tyvärr inte Matrix eller Zulip
     url:         https://mattermost.datasektionen.se
     icon:        https://mattermost.datasektionen.se/static/images/favicon/favicon-default-96x96.png
-    color:       "#1b1d21"
+    color:       "#1e325c"
 
   - name:        Metaspexet
     description: Datas och Medias spex!
@@ -190,7 +191,7 @@ links:
     description: Stadgar, reglemente, PM, och policydokument
     url:         https://styrdokument.datasektionen.se
     icon:        https://styrdokument.datasektionen.se/static/favicon.svg
-    color:       "#ff9800"
+    color:       "#e93b85"
 
   - name:        STÖn
     description: Suck
@@ -216,6 +217,7 @@ links:
     description: Ladda upp statiska filer i sektionssyfte
     url:         https://static.datasektionen.se
     icon:        https://dsekt-assets.s3.amazonaws.com/ior/yoggi-favicon-96x96.png
+    color:       "#ff561c"
 
   - name:        Zaiko
     description: Vad har sektionen?
