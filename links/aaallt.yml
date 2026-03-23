@@ -175,6 +175,10 @@ links:
     icon:        https://planka.datasektionen.se/favicon.ico
     color:       "#22252a"
 
+  - name:        rfinger
+    description: Hur ser du ut?
+    url:         https://rfinger.datasektionen.se
+
   - name:        Sektionswikin
     description: Här hittar du massvis ackumulerad kunskap.
     url:         https://wiki.datasektionen.se
