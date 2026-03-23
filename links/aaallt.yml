@@ -28,6 +28,10 @@ links:
     icon:        https://datasektionen.se/icons/favicon-96x96.png
     color:       "#ff9800"
 
+  - name:        Anmäl
+    description: Anmäl problem till JMLA
+    url:         https://anmal.datasektionen.se
+
   - name:        Betting
     description: När slutar SM?
     url:         https://betting.datasektionen.se
