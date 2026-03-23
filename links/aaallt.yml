@@ -204,6 +204,10 @@ links:
     color:       "#ec5f99"
     sensitive:   true
 
+  - name:        SSO
+    description: Medlemssystem och inloggning
+    url:         https://sso.datasektionen.se
+
   - name:        Tiki
     description: Biljettsystem
     url:         https://tiki.datasektionen.se
