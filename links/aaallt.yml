@@ -224,6 +224,12 @@ links:
     icon:        https://tiki.datasektionen.se/images/logo.svg
     color:       "#000000"
 
+  - name:        Twenty
+    description: Vad vi har sagt till företag
+    url:         https://twenty.datasektionen.se
+    icon:        https://twenty.datasektionen.se/icons/ios/192.png
+    color:       "#000000"
+
   - name:        Valsystemet
     description: Se till att någon tar ansvar
     url:         https://val.datasektionen.se
