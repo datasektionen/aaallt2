@@ -225,6 +225,12 @@ links:
     color:       "#07d"
     sensitive:   true
 
+  - name:        Vaultwarden
+    description: Håll dina lösenord säkra
+    url:         https://vault.datasektionen.se
+    icon:        https://vault.datasektionen.se/images/safari-pinned-tab.svg
+    color:       "#000000"
+
   - name:        Yoggi
     description: Ladda upp statiska filer i sektionssyfte
     url:         https://static.datasektionen.se
