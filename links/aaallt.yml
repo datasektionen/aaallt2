@@ -112,6 +112,12 @@ links:
     icon:        https://durn.datasektionen.se/public/favicon.png
     color:       "#0033cc"
 
+  - name:        Dionysus
+    description: Skriv manus för spexet
+    url:         https://manus.metaspexet.se
+    icon:        https://manus.metaspexet.se/_app/immutable/assets/favicon.C6GATe_p.svg
+    color:       "#ab6b2c"
+
   - name:        Femto
     description: Länkförkortare
     url:         https://admin.dsekt.se
