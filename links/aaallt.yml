@@ -179,6 +179,12 @@ links:
     icon:        https://planka.datasektionen.se/favicon.ico
     color:       "#22252a"
 
+  - name:        n8n
+    description: Lös dina problem automatiskt
+    url:         https://n8n.datasektionen.se
+    icon:        https://dsekt-assets.s3.amazonaws.com/ior/n8n-color.png
+    color:       "#ea4b71"
+
   - name:        rfinger
     description: Hur ser du ut?
     url:         https://rfinger.datasektionen.se
