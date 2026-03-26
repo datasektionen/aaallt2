@@ -179,6 +179,12 @@ links:
     icon:        https://planka.datasektionen.se/favicon.ico
     color:       "#22252a"
 
+  - name:        n8n
+    description: Lös dina problem automatiskt
+    url:         https://n8n.datasektionen.se
+    icon:        https://dsekt-assets.s3.amazonaws.com/ior/n8n-color.png
+    color:       "#ea4b71"
+
   - name:        rfinger
     description: Hur ser du ut?
     url:         https://rfinger.datasektionen.se
@@ -218,12 +224,24 @@ links:
     icon:        https://tiki.datasektionen.se/images/logo.svg
     color:       "#000000"
 
+  - name:        Twenty
+    description: Vad vi har sagt till företag
+    url:         https://twenty.datasektionen.se
+    icon:        https://twenty.datasektionen.se/icons/ios/192.png
+    color:       "#000000"
+
   - name:        Valsystemet
     description: Se till att någon tar ansvar
     url:         https://val.datasektionen.se
     icon:        https://val.datasektionen.se/images/logos/favicon-96x96.png
     color:       "#07d"
     sensitive:   true
+
+  - name:        Vaultwarden
+    description: Håll dina lösenord säkra
+    url:         https://vault.datasektionen.se
+    icon:        https://vault.datasektionen.se/images/safari-pinned-tab.svg
+    color:       "#000000"
 
   - name:        Yoggi
     description: Ladda upp statiska filer i sektionssyfte
