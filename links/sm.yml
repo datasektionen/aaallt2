@@ -51,12 +51,6 @@ links:
     color: "#ab000d"
     sensitive: true
 
-  - name: dUrn
-    description: Rösta i aktiva urnval
-    url: https://durn.datasektionen.se
-    icon: https://durn.datasektionen.se/public/favicon.png
-    color: "#ab000d"
-
   - name: Schulze-metoden
     description: Lär dig hur Schulze-metoden fungerar
     url: https://en.wikipedia.org/wiki/Schulze_method
