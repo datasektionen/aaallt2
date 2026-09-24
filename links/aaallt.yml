@@ -219,6 +219,13 @@ links:
     color:       "#07d"
     sensitive:   true
 
+  - name:        Vaultwarden
+    description: Där vi har alla hemligheter
+    url:         https://vault.datasektionen.se
+    icon:        https://vault.datasektionen.se/images/apple-touch-icon.png
+    color:       "#ffffff"
+    iconstyle:   "background-color: #ffffff; border: 2px solid #ffffff; border-radius: 50%"
+
   - name:        Yoggi
     description: Ladda upp statiska filer i sektionssyfte
     url:         https://static.datasektionen.se
