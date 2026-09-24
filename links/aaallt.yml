@@ -106,12 +106,6 @@ links:
     icon:        https://djulkalendern.se/images/djuldanke.svg
     color:       "#B90e0a"
 
-  - name:        DUrn
-    description: Röstningssystem vid urnval
-    url:         https://durn.datasektionen.se
-    icon:        https://durn.datasektionen.se/public/favicon.png
-    color:       "#0033cc"
-
   - name:        Femto
     description: Länkförkortare
     url:         https://admin.dsekt.se
