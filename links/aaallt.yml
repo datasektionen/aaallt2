@@ -137,9 +137,9 @@ links:
     color:       "#18c249"
 
   - name:        METAcraft
-    description: Datas och Medias Minecraftserver
-    url:         https://metacraft.nu
-    icon:        https://metacraft.nu/logo-square.png
+    description: Datas och ITs Minecraftserver
+    url:         https://metacraft.se
+    icon:        https://metacraft.se/logo-square.png
     color:       "#840557"
 
   - name:        METAdorerna
